@@ -17,7 +17,7 @@ Vcs-Git: https://github.com/epicsdeb/mrfioc2.git
 Vcs-Browser: https://github.com/epicsdeb/mrfioc2
 Homepage: http://epics.sf.net/mrfioc2
 
-Package: libmrfioc2.8
+Package: libmrfioc2.2.0
 Architecture: any
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -30,7 +30,7 @@ Description: EPICS Driver for MRF timing cards
 Package: epics-mrfioc2-dev
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
-         libmrfioc2.8 (= ${binary:Version}),
+         libmrfioc2.2.0 (= ${binary:Version}),
          epics-devlib2-dev,
 Suggests: mrf-dkms
 Description: EPICS Driver for MRF timing cards

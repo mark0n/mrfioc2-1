@@ -1,1 +1,1 @@
-libmrfioc2.1.0: package-name-doesnt-match-sonames libevgmrm.so.2.1.0 libevr.so.2.1.0 libevrMrm.so.2.1.0	libmrfCommon.so.2.1.0 libmrmShared.so.2.1.0
+libmrfioc2.2.0: package-name-doesnt-match-sonames libevgmrm.so.2.2.0 libevr.so.2.2.0 libevrMrm.so.2.2.0	libmrfCommon.so.2.2.0 libmrmShared.so.2.2.0
