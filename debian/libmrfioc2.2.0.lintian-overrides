@@ -1,1 +1,10 @@
-libmrfioc2.2.0: package-name-doesnt-match-sonames libevgmrm.so.2.2.0 libevr.so.2.2.0 libevrMrm.so.2.2.0	libmrfCommon.so.2.2.0 libmrmShared.so.2.2.0
+libmrfioc2.2.0: package-name-doesnt-match-sonames libevgmrm2.2.0 libevr2.2.0 libevrFRIB2.2.0 libevrMrm2.2.0	libmrfCommon2.2.0 libmrmShared2.2.0
+
+# Our policy is not to place the .so symlinks in the default search path
+# but rather in /usr/lib/epics/lib/*/
+libmrfioc2.2.0: dev-pkg-without-shlib-symlink usr/lib/x86_64-linux-gnu/libmrfCommon.so.2.2.0 usr/lib/x86_64-linux-gnu/libmrfCommon.so
+libmrfioc2.2.0: dev-pkg-without-shlib-symlink usr/lib/x86_64-linux-gnu/libmrmShared.so.2.2.0 usr/lib/x86_64-linux-gnu/libmrmShared.so
+libmrfioc2.2.0: dev-pkg-without-shlib-symlink usr/lib/x86_64-linux-gnu/libevr.so.2.2.0 usr/lib/x86_64-linux-gnu/libevr.so
+libmrfioc2.2.0: dev-pkg-without-shlib-symlink usr/lib/x86_64-linux-gnu/libevrMrm.so.2.2.0 usr/lib/x86_64-linux-gnu/libevrMrm.so
+libmrfioc2.2.0: dev-pkg-without-shlib-symlink usr/lib/x86_64-linux-gnu/libevgmrm.so.2.2.0 usr/lib/x86_64-linux-gnu/libevgmrm.so
+libmrfioc2.2.0: dev-pkg-without-shlib-symlink usr/lib/x86_64-linux-gnu/libevrFRIB.so.2.2.0 usr/lib/x86_64-linux-gnu/libevrFRIB.so
