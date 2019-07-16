@@ -1,3 +1,10 @@
+mrfioc2 (2.2.0-4) unstable; urgency=medium
+
+  * Fix wrong version number in package name
+  * Bump up debhelper version
+
+ -- Martin Konrad <konrad@frib.msu.edu>  Tue, 16 Jul 2019 11:58:12 -0400
+
 mrfioc2 (2.2.0-3) unstable; urgency=medium
 
   * Add missing dependency
